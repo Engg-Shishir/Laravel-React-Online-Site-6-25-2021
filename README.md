@@ -3,5 +3,7 @@
 
 
 + Install Laravel `composer create-project laravel/laravel blog`
-
++ Laravel Ui `composer require laravel/ui`
++ ui React `php artisan ui react`
++ ui bootstrap `php artisan ui bootstrap`
  
