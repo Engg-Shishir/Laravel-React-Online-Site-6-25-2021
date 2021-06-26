@@ -31,6 +31,15 @@ a:hover{
     margin-right:auto;
     margin-left:auto;
 }
+.section-margin{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.loading-logo {
+    height: 15vmin;
+    pointer-events: none;
+    animation: react-logo-spin infinite 2s linear;
+}
 
 .navbar{
     background-color: white !important;
@@ -102,8 +111,29 @@ a:hover{
 }
 
 
+.courseFeature{
+    .item-logo{
+        width:50px;
+        height:50px;
+    }
+    .item-logoSmall{
+        width:20px;
+        height:20px;
+    }
+}
+
+
 
 @keyframes react-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-logo-spin {
     from {
         transform: rotate(0deg);
     }
