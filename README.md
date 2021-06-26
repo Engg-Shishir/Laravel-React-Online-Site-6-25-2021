@@ -44,5 +44,5 @@ mix.js('resources/js/Main.js', 'public/js').react()
 
 
 
-+ 
++ Link Storage foder in Public folder `php artisan storage:link`
  
