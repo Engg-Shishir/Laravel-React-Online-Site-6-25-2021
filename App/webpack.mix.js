@@ -14,3 +14,8 @@ const mix = require('laravel-mix');
 mix.js('resources/js/Main.js', 'public/js').react()
     .sass('resources/sass/main.scss', 'public/css')
     .sourceMaps();
+
+
+mix.copyDirectory('resources/images','public/images')
+mix.copy('resources/css/style.css','public/css')
+mix.copy('resources/css/responsive.css','public/css')

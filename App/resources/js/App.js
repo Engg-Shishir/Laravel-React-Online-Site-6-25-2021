@@ -1,11 +1,11 @@
-import React from 'react';
-import Menu from './components/Menu';
+import React, { Component, Fragment } from 'react';
+import AppRoute from './route/AppRoute';
+import { BrowserRouter} from "react-router-dom";
 function App() {
     return (
-        <div>
-            <Menu/>
-        </div>
+        <BrowserRouter >
+            <AppRoute />
+        </BrowserRouter>
     );
 }
-
 export default App;
