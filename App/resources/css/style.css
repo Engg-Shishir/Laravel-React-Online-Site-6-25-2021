@@ -1,352 +1,143 @@
-.body{
-    background: #ffffff !important;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.btn{
-    border-radius: 0% !important;
-}
-.btn:focus{
-    box-shadow: none;
-}
-.nav-logo{
-    width:120px;
-    height:40px;
-}
-.nav-font{
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #090910!important;
-    font-family: Montserrat;
-    font-weight: 400;
+.body {
+  background: #ffffff !important;
 }
 
-.nav-font:hover{
-    color: #54DAFB!important;
-}
-.navbar{
-    background-color: white !important;
-    box-shadow: 0 0 10px 0 rgba(240, 240, 240,1)
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: none;
-}
-.bg-light{
-    background-color: #F9F9F9 !important;
-}
-.login-btn{
-    color:  white!important;
-    background-color:#151446!important;
-    padding-left: 70px !important;
-    padding-right: 70px !important;
-}
-.btn-outline{
-    color:  #151446!important;
-    background:none !important;
-    border: 1px solid #151446!important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-}
-.btn-outline:hover{
-    color:  white!important;
-    background:#54DAFB!important;
-    border: 1px solid #54DAFB!important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-}
-.normal-btn{
-    color:  white!important;
-    background-color:#151446!important;
-}
-.normal-btn:hover{
-    background-color:#54DAFB!important;
-}
-.login-btn:hover{
-    background-color:#54DAFB!important;
+.btn {
+  border-radius: 0% !important;
 }
 
-
-.top-div{
-    padding-top:120px;
-    min-height: 500px !important;
-    background:none;
-}
-.top-title{
-    color:#090910;
-    font-family: Montserrat;
-    font-size:50px;
-    font-weight:600;
-}
-.top-subtitle{
-    color:#151446;
-    font-size:18px;
-    font-family: Montserrat;
-    font-weight: 300;
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-.des-text{
-    color: #636363!important;
-    font-family: Roboto;
-    font-size:14px;
-    font-weight:300;
-}
-.title-text{
-    color:  #090910!important;
-    font-size:18px;
-    font-weight:400;
-    font-family: Montserrat;
-}
-.item-logo{
-    width:50px;
-    height:50px;
-}
-.item-logoSmall{
-    width:20px;
-    height:20px;
-}
-.play-logo{
-    width:60px;
-    height:60px;
-    cursor: pointer;
-}
-.section-margin{
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.section-marginbg{
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
-.section-marginTop{
-    margin-top: 100px;
-}
-.bkash-logo{
-    width:120px;
-    height:60px;
-}
-.card {
-    border: none !important;
-    border-radius: 0% !important;
-    box-shadow: 0 0 6px 0 rgba(240, 240, 240,1);
+a {
+  text-decoration: none;
 }
 
-.card:hover{
-    border: none !important;
-    box-shadow: 0 0 10px 0 rgba(240, 240, 240,1)
+a:hover {
+  text-decoration: none;
 }
 
-.modal{
-    border-radius: 0% !important;
-}
-.offer-img{
-    width: 100%;
-    height:200px;
+.bg-light {
+  background-color: #F9F9F9 !important;
 }
 
-
-.play-small{
-    width:30px;
-    height:30px;
-    margin: 0px auto;
-    cursor: pointer;
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-
-.footer-link{
-    color:rgba(75, 48, 223, 1) !important;
-    text-decoration: none;
+.navbar {
+  background-color: white !important;
+  -webkit-box-shadow: 0 0 10px 0 #f0f0f0;
+          box-shadow: 0 0 10px 0 #f0f0f0;
 }
 
-
-.custom-bg{
-    background-color: #151446!important;
+.navbar .nav-logo {
+  width: 120px;
+  height: 40px;
 }
 
-
-.classroom-img{
-    width: 70%;
+.navbar .nav-font {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #090910 !important;
+  font-family: Montserrat;
+  font-weight: 400;
 }
 
-
-.form-control:focus {
-    border-color: #151446!important;
-    box-shadow: none;
+.navbar .nav-font:hover {
+  color: #54DAFB !important;
 }
 
-.form-control{
-    box-shadow: none;
-    font-size:14px;
-    font-weight:300;
-    border-radius: 0% !important;
+.paralax {
+  min-height: 500px;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.footer-link {
-    color: #262626!important;
-    font-size:14px;
-    font-weight:300;
-    font-family: Roboto;
+.paralax .top-div, .paralax .bottom-div {
+  min-height: 500px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-
-.footer-link:hover {
-    color:  #54DAFB!important;
+.paralax .top-div .content .login-btn {
+  color: white !important;
+  background-color: #151446 !important;
+  padding-left: 70px !important;
+  padding-right: 70px !important;
 }
 
-
-.card-img{
-    width: 100%;
-    border-radius: 0% !important;
+.paralax .top-div .content .login-btn:hover {
+  background-color: #54DAFB !important;
 }
 
-.card{
-    width:100% !important;
+.paralax .top-div .content .top-title {
+  color: #fdfdff;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.credit-text{
-    color: white!important;
-    font-family: Roboto;
-    font-size:14px;
-    font-weight:300;
+.paralax .top-div .content .top-subtitle {
+  color: #f5f5ff;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 300;
 }
 
-.top-titleClass{
-    color:#151446!important;;
-    font-family: Montserrat;
-    font-size:40px;
-    font-weight:600;
+.paralax .bottom-div .react-logo {
+  height: 45vmin;
+  pointer-events: none;
+  -webkit-animation: react-logo-spin infinite 20s linear;
+          animation: react-logo-spin infinite 20s linear;
 }
 
-.top-subtitleClass{
-    color:#262626!important;;
-    font-family: Roboto;
-    font-size:18px;
-    font-weight:300;
-}
-
-
-
-
-
-
-
-#snackbar {
-    visibility: hidden;
-    min-width: 250px;
-    margin-left: -125px;
-    background-color:  black;
-    color: #fff;
-    text-align: center;
-    border-radius: 0px;
-    padding: 16px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-}
-
-#snackbar.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
-#snackbarRecover{
-    visibility: hidden;
-    width: 100%;
-    background-color:  black;
-    color: #fff;
-    text-align: center;
-    border-radius: 0px;
-    padding: 10px;
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: 400;
-}
-#snackbarRecover.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
-#snackbarReset {
-    visibility: hidden;
-    width: 100%;
-    background-color:  black;
-    color: #fff;
-    text-align: center;
-    border-radius: 0px;
-    padding: 10px;
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: 400;
-}
-#snackbarReset.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-@-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-@keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-@-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-}
-@keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-}
-
-.user-img{
-    width: 200px;
-}
-
-
-
-.loading-logo {
-    height: 15vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .loading-logo  {
-        animation: loading-logo-spin infinite 2s linear;
-    }
-}
-
-@keyframes loading-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.react-logo {
-    height: 45vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .react-logo  {
-        animation: react-logo-spin infinite 20s linear;
-    }
+@-webkit-keyframes react-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 @keyframes react-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
+/*# sourceMappingURL=style.css.map */

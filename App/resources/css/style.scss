@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background: #ffffff !important;
+}
+
+.btn{
+    border-radius: 0% !important;
+}
+.btn:focus{
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.bg-light{
+    background-color: #F9F9F9 !important;
+}
+
+.container{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 0 0 10px 0 rgba(240, 240, 240,1);
+    .nav-logo{
+        width:120px;
+        height:40px;
+    }
+    .nav-font{
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #090910!important;
+        font-family: Montserrat;
+        font-weight: 400;
+        &:hover{
+            color: #54DAFB!important;
+        }
+    }
+}
+
+
+.paralax{
+    min-height: 500px;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    .top-div, .bottom-div{
+        min-height: 500px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-div{
+        .content{
+            .login-btn{
+                color:  white!important;
+                background-color:#151446!important;
+                padding-left: 70px !important;
+                padding-right: 70px !important;
+                &:hover{
+                    background-color:#54DAFB!important;
+                }
+            }
+            .top-title{
+                color:#fdfdff;
+                font-family: Montserrat;
+                font-size:50px;
+                font-weight:600;
+            }
+            .top-subtitle{
+                color:#f5f5ff;
+                font-size:18px;
+                font-family: Montserrat;
+                font-weight: 300;
+            }
+        }
+    }
+    .bottom-div{
+        .react-logo {
+            height: 45vmin;
+            pointer-events: none;
+            animation: react-logo-spin infinite 20s linear;
+        }
+        
+    }
+}
+
+
+
+@keyframes react-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
