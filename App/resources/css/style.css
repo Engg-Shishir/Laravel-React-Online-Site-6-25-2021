@@ -141,6 +141,64 @@ a:hover {
   height: 20px;
 }
 
+.courseplan .play-logo {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.courseplan .title-text {
+  color: #090910 !important;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Montserrat;
+}
+
+.courseplan .des-text {
+  color: #636363 !important;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.payment .bkash-logo {
+  height: 100px;
+  width: 200px;
+}
+
+.payment .card-img-top {
+  width: 100%;
+  height: 80%;
+}
+
+.payment .btn-outline {
+  color: #151446 !important;
+  background: none !important;
+  border: 1px solid #151446 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.payment .btn-outline:hover {
+  color: white !important;
+  background: #54DAFB !important;
+  border: 1px solid #54DAFB !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.freeClass .play-small {
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.moreCourse .item-logo {
+  width: 50px;
+  height: 50px;
+}
+
 @-webkit-keyframes react-logo-spin {
   from {
     -webkit-transform: rotate(0deg);
