@@ -194,9 +194,19 @@ a:hover {
   cursor: pointer;
 }
 
+.moreCourse {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
 .moreCourse .item-logo {
   width: 50px;
   height: 50px;
+}
+
+.moreCourse:hover {
+  -webkit-box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 @-webkit-keyframes react-logo-spin {
